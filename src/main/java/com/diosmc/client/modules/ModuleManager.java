@@ -3,6 +3,10 @@ package com.diosmc.client.modules;
 import com.diosmc.client.modules.pvp.KillAura;
 import com.diosmc.client.modules.pvp.Sprint;
 import com.diosmc.client.modules.pvp.Reach;
+import com.diosmc.client.modules.pvp.NoFall;
+import com.diosmc.client.modules.pvp.Velocity;
+import com.diosmc.client.modules.pvp.AutoTotem;
+import com.diosmc.client.modules.pvp.Scaffold;
 import com.diosmc.client.modules.hud.HUDOverlay;
 import com.diosmc.client.modules.hud.Coordinates;
 import com.diosmc.client.modules.hud.FPSCounter;
@@ -22,6 +26,10 @@ public class ModuleManager {
         register(new KillAura());
         register(new Sprint());
         register(new Reach());
+        register(new NoFall());
+        register(new Velocity());
+        register(new AutoTotem());
+        register(new Scaffold());
         // HUD
         register(new HUDOverlay());
         register(new Coordinates());
