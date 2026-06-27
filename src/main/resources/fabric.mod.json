@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "diosmc_client",
+  "version": "1.0.0",
+  "name": "DiosMC Client",
+  "description": "Cliente PvP para DiosMC: KillAura, Sprint, Reach, ESP, Fullbright, Zoom, HUD.",
+  "authors": ["DiosMC"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.diosmc.client.DiosMCClient"
+    ]
+  },
+  "mixins": [
+    "diosmc_client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  }
+}

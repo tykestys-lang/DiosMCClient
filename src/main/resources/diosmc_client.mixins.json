@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.diosmc.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ReachMixin",
+    "ZoomMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
